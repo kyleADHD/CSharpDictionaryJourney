@@ -8,13 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Dictionary Introduction\" />
-    <None Remove="Dictionary Iteration\" />
-    <None Remove="Dictionary Operations\" />
+    <None Remove="5.Dictionary Custom Key Types\" />
+    <None Remove="1.Dictionary Introduction\" />
+    <None Remove="2.Dictionary Iteration\" />
+    <None Remove="3.Dictionary Operations\" />
+    <None Remove="4.Nested Dictionaries\" />
+    <None Remove="6.Concurrent Dictionaries\" />
+    <None Remove="7.Advanced Dictionary Techniques\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dictionary Introduction\" />
-    <Folder Include="Dictionary Iteration\" />
-    <Folder Include="Dictionary Operations\" />
+    <Folder Include="5.Dictionary Custom Key Types\" />
+    <Folder Include="1.Dictionary Introduction\" />
+    <Folder Include="2.Dictionary Iteration\" />
+    <Folder Include="3.Dictionary Operations\" />
+    <Folder Include="4.Nested Dictionaries\" />
+    <Folder Include="6.Concurrent Dictionaries\" />
+    <Folder Include="7.Advanced Dictionary Techniques\" />
   </ItemGroup>
 </Project>

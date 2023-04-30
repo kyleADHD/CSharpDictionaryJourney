@@ -1,11 +1,17 @@
 ﻿# C# Dictionary Journey
 
-Hello and welcome to the C# Dictionary Journey! In this project, you'll learn all about C# dictionaries and how to use them in your code.
-We created this repo to help understand and learn how to use dictionaries in C#
+Welcome to the C# Dictionary Journey! This project is a collection of C# code examples demonstrating different techniques for working with dictionaries. We created this repo to help understand and learn how to use dictionaries in C#.
 
 ## What is this Project About?
 
-This project is a collection of C# code examples demonstrating different techniques for working with dictionaries. The examples are organized into sections covering basic operations, iterating dictionaries, and dictionary operations.
+This project is a collection of C# code examples demonstrating different techniques for working with dictionaries. The examples are organized into sections covering:
+- basic operations
+- iterating dictionaries
+- dictionary operations
+- nested dictionaries
+- custom key types
+- concurrent dictionaries
+- advanced dictionary techniques(LRU Cache and Conditional Weak Table).
 
 ## How to Use this Project
 
@@ -17,7 +23,7 @@ This project is a collection of C# code examples demonstrating different techniq
 
 ## What's Next?
 
-You've learned some powerful techniques for working with C# dictionaries. Keep exploring and learning! We'll dive into more advanced topics in the upcoming sections. Enjoy!
+You've learned some powerful techniques for working with C# dictionaries. Keep exploring and learning! We hope you found this project helpful.
 
 ## Contributions
 
@@ -25,7 +31,6 @@ Contributions are welcome! If you have any suggestions for new examples or secti
 
 ## Credits
 
-This project was created by myself and some work friends. 
+This project was created by myself and a few work friends.
 
 Happy coding!
-

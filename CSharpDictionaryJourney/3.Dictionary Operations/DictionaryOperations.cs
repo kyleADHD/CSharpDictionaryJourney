@@ -22,12 +22,13 @@ namespace CSharpDictionaryJourney.DictionaryOperations
 
             // To merge two dictionaries, you can use the Concat method and ToDictionary
             var mergedDictionary = dictionary1.Concat(dictionary2).ToDictionary(entry => entry.Key, entry => entry.Value);
-
+            Console.WriteLine();
             Console.WriteLine("Merged dictionary:");
             foreach (var entry in mergedDictionary)
             {
                 Console.WriteLine($"Key: {entry.Key}, Value: {entry.Value}");
             }
+            Console.WriteLine();
         }
 
         public static void SortingDictionaries()
