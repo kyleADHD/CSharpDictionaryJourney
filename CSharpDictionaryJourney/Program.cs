@@ -1,45 +1,45 @@
-﻿using CSharpDictionaryJourney.AdvancedDictionaryTechniques;
+using CSharpDictionaryJourney.AdvancedDictionaryTechniques;
 using CSharpDictionaryJourney.ConcurrentDictionaries;
 using CSharpDictionaryJourney.DictionaryCustomKeyTypes;
-using CSharpDictionaryJourney.DictionaryIntroduction;
-using CSharpDictionaryJourney.DictionaryIteration;
 using CSharpDictionaryJourney.DictionaryOperations;
+using CSharpDictionaryJourney.DictionaryIteration;
 using CSharpDictionaryJourney.NestedDictionaries;
 
-#region Dictionary Introduction examples
-DictionaryIntro.BasicDeclarationAndInitialization();
-DictionaryIntro.AddingAndRemovingElements();
-DictionaryIntro.AccessUsingIndexerAndTryGetValue();
-#endregion
 
-#region Dictionary Iteration examples
-DictionaryIteration.ForeachWithKeyValuePair();
-DictionaryIteration.LinqWithDictionaries();
-DictionaryIteration.IterateKeysAndValuesSeparately();
-#endregion
+public class Program {
+  
+  public static void Main(string[] args) {
+    // Basic dictionary declarations and initializations
+    DictionaryIntro.BasicDeclarationAndInitialization();
 
-#region Dictionary Operations examples
-DictionaryOperations.MergingDictionaries();
-DictionaryOperations.SortingDictionaries();
-DictionaryOperations.InvertingDictionaries();
-DictionaryOperations.GroupingDataWithDictionaries();
-#endregion
+    // Adding and removing elements to/from a dictionary
+    DictionaryIntro.AddingAndRemovingElements();
 
-#region NestedDictionaries
-NestedDictionaries.CreateAndAccessNestedDictionaries();
-NestedDictionaries.IterateThroughNestedDictionaries();
-NestedDictionaries.PerformOperationsOnNestedDictionaries();
-#endregion
+    // Accessing values in a dictionary using indexers and TryGetValue()
+    DictionaryIntro.AccessUsingIndexerAndTryGetValue();
 
-#region Custom Key Types in Dictionaries
-CustomKeyTypes.CreateDictionariesWithCustomKeyTypes();
-#endregion
+    // Iteration examples: iterating over keys and values
+    DictionaryIteration.ForeachWithKeyValuePair();
+    DictionaryIteration.LoopWithDictionaries();
 
-#region Concurrent Dictionaries
-ConcurrentDictionaries.UseConcurrentDictionary();
-#endregion
+    // Operations: Merging, sorting, and grouping dictionaries
+    DictionaryOperations.MergeDictionaries();
+    DictionaryOperations.SortingDictionaries();
+    DictionaryOperations.InvertingDictionaries();
 
-#region Advanced Dictionary Techniques
-AdvancedDictionaryTechniques.UseConditionalWeakTable();
-AdvancedDictionaryTechniques.ImplementLRUCache();
-#endregion
+    // Nested dictionary handling
+    NestedDictionaries.CreateAndAccessNestedDictionaries();
+    NestedDictionaries.IterateThroughNestedDictionaries();
+    NestedDictionaries.PerformOperationsOnNestedDictionaries();
+
+    // Custom key types in dictionaries
+    CustomKeyTypes.CreateDictionariesWithCustomKeyTypes();
+
+    // Concurrency support for dictionaries
+    ConcurrentDictionaries.UseConcurrentDictionary();
+
+    // Advanced techniques: Conditional weak tables, LRU cache implementations
+    AdvancedDictionaryTechniques.UseConditionalWeakTable();
+    AdvancedDictionaryTechniques.ImplementLRUCache();
+  }
+}
